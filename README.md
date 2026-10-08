@@ -8,7 +8,7 @@ Evaluation git/github (ESGI NANTES) avec Lowan QUARTON, Ayman KHALIL et Pham Nha
 |-------------------|-----|--------|------|
 | @lowan-qrt | QUARTON | Lowan | Étudiant 1 |
 | @khalilayman | KHALIL | Ayman | Étudiant 2 |
-| @phamnhathuyhuynh-connab | HUYNH | Huy | Étudiant 3 |
+| @phamnhathuyhuynh-collab | HUYNH | Huy | Étudiant 3 |
 
 ##  Présentation du projet
 À compléter...
