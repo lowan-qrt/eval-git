@@ -2,3 +2,133 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo h1 {
+  color: #0066cc;
+  font-size: 1.4rem;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #0066cc;
+}
+
+/* ===== SECTION ÉVÉNEMENTS ===== */
+.events-section {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.events-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+/* Grille */
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+/* Carte */
+.event-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.event-title {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.event-date,
+.event-location {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0.2rem 0;
+}
+
+.event-description {
+  flex-grow: 1;
+  margin: 1rem 0;
+  font-size: 0.95rem;
+}
+
+/* Bouton */
+.btn-inscription {
+  display: block;
+  background: #0066cc;
+  color: #fff;
+  text-align: center;
+  padding: 0.7rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: auto;
+}
+
+.btn-inscription:hover {
+  background: #004999;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .events-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .nav-links {
+    gap: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .events-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .events-section h2 {
+    font-size: 1.5rem;
+  }
+}
