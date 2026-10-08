@@ -19,7 +19,12 @@ Evaluation git/github (ESGI NANTES) avec Lowan QUARTON, Ayman KHALIL et Pham Nha
 - C : Formulaire d'inscription
 
 ##  Workflow Git Flow
-À compléter...
+- `main` : versions stables
+- `develop` : développement en cours
+- `feature/*` : nouvelles fonctionnalités
+- `bugfix/*` : corrections
+- `release/*` : préparation de release
+- `hotfix/*` : corrections urgentes de production
 
 ## Conflit Git rencontré
 À compléter...
