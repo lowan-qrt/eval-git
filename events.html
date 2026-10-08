@@ -1,79 +1,58 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Événements - Association Étudiante</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>Accueil — Campus Hub</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-  <!-- ===== NAVIGATION ===== -->
-  <header class="header">
-    <nav class="navbar">
-      <div class="logo">
-        <h1>🎓 Asso Étudiante</h1>
-      </div>
-      <ul class="nav-links">
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="events.html">Événements</a></li>
-        <li><a href="forms.html">Inscription</a></li>
-      </ul>
-    </nav>
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">Campus Hub</a>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Accueil</a></li>
+          <li><a href="events.html">Événements</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <!-- ===== CATALOGUE ÉVÉNEMENTS ===== -->
-  <section id="evenements" class="events-section">
-    <h2>Nos Événements à Venir</h2>
+  <main>
+    <!-- Bannière principale de présentation -->
+    <section class="hero">
+      <h1>Association Étudiante Campus Hub</h1>
+      <p>Fédérer les étudiants, animer la vie de campus et accompagner chacun dans la réussite de ses projets universitaires et associatifs.</p>
+      <a href="#missions" class="btn">Découvrir nos actions</a>
+    </section>
 
-    <div class="events-grid">
+    <!-- Présentation des missions et valeurs -->
+    <section id="missions">
+      <h2 class="section-title">Qui sommes-nous ?</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Cohésion & Vie Étudiante</h3>
+          <p>Créer du lien entre les différentes promotions à travers des moments de partage, d'échange et d'entraide tout au long de l'année.</p>
+        </article>
 
-      <!-- Événement 1 -->
-      <article class="event-card">
-        <h3 class="event-title">Soirée d'Intégration</h3>
-        <p class="event-date">📅 15 Novembre 2026</p>
-        <p class="event-location">📍 Campus MyGES - Amphi A</p>
-        <p class="event-description">
-          Venez rencontrer les nouveaux étudiants autour d'un moment convivial.
-          Au programme : jeux, musique et buffet.
-        </p>
-        <a href="inscription.html" class="btn-inscription">S'inscrire</a>
-      </article>
+        <article class="card">
+          <h3>Animation & Projets</h3>
+          <p>Soutenir les initiatives étudiantes et proposer un cadre convivial pour développer des compétences extra-scolaires en équipe.</p>
+        </article>
 
-      <!-- Événement 2 -->
-      <article class="event-card">
-        <h3 class="event-title">Hackathon Étudiant</h3>
-        <p class="event-date">📅 22-23 Novembre 2026</p>
-        <p class="event-location">📍 Salle Informatique B204</p>
-        <p class="event-description">
-          24 heures pour coder un projet en équipe sur un thème surprise !
-          Inscription obligatoire, places limitées.
-        </p>
-        <a href="inscription.html" class="btn-inscription">S'inscrire</a>
-      </article>
+        <article class="card">
+          <h3>Engagement & Solidarité</h3>
+          <p>Favoriser l'inclusion de tous les nouveaux arrivants et relayer les ressources utiles à la vie quotidienne sur le campus.</p>
+        </article>
+      </div>
+    </section>
+  </main>
 
-      <!-- Événement 3 -->
-      <article class="event-card">
-        <h3 class="event-title">Conférence Tech & Carrière</h3>
-        <p class="event-date">📅 5 Décembre 2026</p>
-        <p class="event-location">📍 Auditorium Principal</p>
-        <p class="event-description">
-          Rencontrez des professionnels du secteur IT et découvrez les métiers
-          qui recrutent.
-        </p>
-        <a href="inscription.html" class="btn-inscription">S'inscrire</a>
-      </article>
-
-    </div>
-  </section>
-
-  <!-- ===== FOOTER ===== -->
-  <footer class="footer">
-    <p>&copy; 2026 Association Étudiante</p>
+  <footer>
+    <p>&copy; 2026 Campus Hub — Tous droits réservés.</p>
   </footer>
 
 </body>
-
 </html>
