@@ -32,7 +32,7 @@ L'objectif est de créer un site web pour une **association étudiante** permett
 - `hotfix/*` : corrections urgentes de production
 
 ## Conflit Git rencontré
-À compléter...
+Nous avons rencontré beaucoup de soucis de conflits sur les merges car nous n'avons pas vraiment compris le processus de pull (à quel moment pull). Le temps nous a parut beaucoup trop court : nous avons perdu du temps sur la compréhension du besoin du client et l'organisation, ainsi que la mise en place a été très compliquée.
 
 ## Versions publiées
 - v1.0
@@ -78,3 +78,17 @@ Huy → questions 1, 5
 Lowane → questions 2, 4, 8
 
 Ayman → questions 3, 6, 7
+
+
+Difficultés rencontrées :
+Branche `main` protégée
+Lors du premier push, GitHub a rejeté notre commit avec l'erreur `GH006: Protected branch update failed`.
+Branche `develop` manquante en local
+La gestion des branches en remote/local était compliquée à gérer.
+Erreur `pathspec 'develop' did not match`. Résolu avec `git fetch origin` puis `git checkout develop`. Complications eu avec git fetch car nouvelle fonctionnalité.
+Mauvais emplacement des fichiers
+Le catalogue d'événements a d'abord été codé dans `index.html` au lieu de `events.html`.
+Nous avons déplacé le contenu et restauré `index.html` avec `git checkout index.html`.
+Responsive mobile
+Les cartes d'événements débordaient de l'écran sur mobile.
+On a décidé de faire une refonte du site après une longue démarche de compréhension.
